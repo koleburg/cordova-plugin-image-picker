@@ -188,7 +188,7 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
         boolean isChecked = !isChecked(position);
         if (maxImages == 0 && isChecked) {
             isChecked = false;
-            AlertDialog.Builder builder = new AlertDialog.Builder(this); //, fakeR.getId("style", "actionbar_done_textview")
+            AlertDialog.Builder builder = new AlertDialog.Builder(this, fakeR.getId('style', 'CustomAlert')); //, fakeR.getId("style", "actionbar_done_textview")
             builder.setTitle("Ограничение на загрузку фото");
             builder.setMessage("Вы можете выбрать только " + maxImageCount + " фотографий");
             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
