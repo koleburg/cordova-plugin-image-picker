@@ -3,7 +3,7 @@
     <style name="MyTheme" parent="android:Theme.Material.Light">
     </style>
 
-    <style name="CustomAlert" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <style name="CustomAlert" parent="android:Theme.AppCompat.Dialog">
 <!--        <item name="android:windowsTitleStyle">#ffffffff</item>-->
 <!--        &lt;!&ndash; <item name="android:windowBackground">@android:color/transparent</item>-->
 <!--        <item name="android:windowContentOverlay">@null</item>-->
