@@ -18,8 +18,8 @@
 
 
 
-        <item name="colorAccent">@color/blue</item> <!--buttons color-->
-        <item name="android:textColorPrimary">@android:color/black</item> <!--title and message color-->
+        <item name="colorAccent">#337AB7</item> <!--buttons color-->
+        <item name="android:textColorPrimary">#000</item> <!--title and message color-->
         <item name="android:windowBackground">@drawable/background_dialog</item> <!--dialog background-->
 
     </style>
