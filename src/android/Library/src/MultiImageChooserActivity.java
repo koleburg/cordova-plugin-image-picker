@@ -67,6 +67,7 @@ import android.util.SparseBooleanArray;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ContextThemeWrapper;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
@@ -188,7 +189,8 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
         boolean isChecked = !isChecked(position);
         if (maxImages == 0 && isChecked) {
             isChecked = false;
-            AlertDialog.Builder builder = new AlertDialog.Builder(this, fakeR.getId("style", "CustomAlert")); //, fakeR.getId("style", "actionbar_done_textview")
+            ContextThemeWrapper ctw = new ContextThemeWrapper(this, fakeR.getId("style", "CustomAlert"));
+            AlertDialog.Builder builder = new AlertDialog.Builder(ctw); //, fakeR.getId("style", "actionbar_done_textview")
             builder.setTitle("Ограничение на загрузку фото");
             builder.setMessage("Вы можете выбрать только " + maxImageCount + " фотографий");
             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {

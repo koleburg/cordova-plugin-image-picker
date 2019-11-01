@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="MyTheme" parent="android:Theme.Material.Light">
-        <item name="android:alertDialogTheme">@style/CustomAlert</item>
     </style>
 
-    <style name="CustomAlert">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
-        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
-        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
-        <!-- <item name="android:windowTitleStyle">...</item>
-        <item name="android:textAppearanceMedium">...</item>
-        <item name="android:borderlessButtonStyle">...</item>
-        <item name="android:buttonBarStyle">...</item> -->
+    <style name="CustomAlert" parent="Theme.AppCompat.Light.Dialog.Alert">
+<!--        <item name="android:windowsTitleStyle">#ffffffff</item>-->
+<!--        &lt;!&ndash; <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowIsFloating">true</item>-->
+<!--        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+<!--        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>-->
+<!--        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item> &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="android:windowTitleStyle">...</item>-->
+<!--        <item name="android:textAppearanceMedium">...</item>-->
+<!--        <item name="android:borderlessButtonStyle">...</item>-->
+<!--        <item name="android:buttonBarStyle">...</item> &ndash;&gt;-->
+
+
+
+        <item name="colorAccent">@color/blue</item> <!--buttons color-->
+        <item name="android:textColorPrimary">@android:color/black</item> <!--title and message color-->
+        <item name="android:windowBackground">@drawable/background_dialog</item> <!--dialog background-->
+
     </style>
 
 </resources>
