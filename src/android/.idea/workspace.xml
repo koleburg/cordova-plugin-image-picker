@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66268c90-d6ae-4cce-9941-fdd627c44654" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Library/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/src/MultiImageChooserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library/src/MultiImageChooserActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Library/res/values/themes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -279,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Library/res/values/themes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
