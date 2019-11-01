@@ -5,7 +5,8 @@
     android:insetRight="16dp"
     android:insetBottom="16dp">
 
-    <shape android:shape="rectangle">
+    <shape android:shape="rectangle"
+           xmlns:android="http://schemas.android.com/apk/res/android">
         <corners android:radius="2dp" />
         <solid android:color="#fff" />
     </shape>

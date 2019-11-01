@@ -85,6 +85,7 @@
 		
 		<resource-file src="src/android/Library/res/anim/image_pop_in.xml" target="res/anim/image_pop_in.xml"/>
 		<resource-file src="src/android/Library/res/drawable/grid_background.xml" target="res/drawable/grid_background.xml"/>
+		<resource-file src="src/android/Library/res/drawable/background_dialog.xml" target="res/drawable/background_dialog.xml"/>
 		<resource-file src="src/android/Library/res/drawable-hdpi/image_bg.9.png" target="res/drawable-hdpi/image_bg.9.png"/>
 		<resource-file src="src/android/Library/res/drawable-hdpi/loading_icon.png" target="res/drawable-hdpi/loading_icon.png"/>
 		<resource-file src="src/android/Library/res/drawable-mdpi/ic_action_discard_dark.png" target="res/drawable-mdpi/ic_action_discard_dark.png"/>
