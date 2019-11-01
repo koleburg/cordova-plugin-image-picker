@@ -173,7 +173,8 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
         getLoaderManager().initLoader(CURSORLOADER_REAL, null, this);
         setupHeader();
         updateAcceptButton();
-        progress = new ProgressDialog(this);
+        ContextThemeWrapper ctw = new ContextThemeWrapper(this, fakeR.getId("style", "CustomAlert"));
+        progress = new ProgressDialog(ctw);
         progress.setTitle("Загрузка фотографий");
         progress.setMessage("Идёт загрузка фотографий, пожалуйста подождите");
     }
