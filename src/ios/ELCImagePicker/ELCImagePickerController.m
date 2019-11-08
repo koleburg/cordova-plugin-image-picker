@@ -49,13 +49,13 @@
 {
     BOOL shouldSelect = previousCount < self.maximumImagesCount;
     if (!shouldSelect) {
-        NSString *title = [NSString stringWithFormat:NSLocalizedString(@"Maximum %d photos.", nil), self.maximumImagesCount];
+        NSString *title = [NSString stringWithFormat:NSLocalizedString(@"Ограничение фотографий", nil), nil];
         NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Вы можете выбрать только %d фотографий", nil), self.maximumImagesCount];
         [[[UIAlertView alloc] initWithTitle:title
                                     message:message
                                    delegate:nil
                           cancelButtonTitle:nil
-                          otherButtonTitles:NSLocalizedString(@"Okay", nil), nil] show];
+                          otherButtonTitles:NSLocalizedString(@"Понятно", nil), nil] show];
     }
     return shouldSelect;
 }

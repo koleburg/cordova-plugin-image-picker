@@ -1,11 +1,3 @@
-//
-//  SOSPicker.m
-//  SyncOnSet
-//
-//  Created by Christopher Sullivan on 10/25/13.
-//
-//
-
 #import "SOSPicker.h"
 #import "ELCAlbumPickerController.h"
 #import "ELCImagePickerController.h"

@@ -176,7 +176,7 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
         ContextThemeWrapper ctw = new ContextThemeWrapper(this, fakeR.getId("style", "CustomAlert"));
         progress = new ProgressDialog(ctw);
         progress.setTitle("Загрузка фотографий");
-        progress.setMessage("Идёт загрузка фотографий, пожалуйста подождите");
+        progress.setMessage("Идёт загрузка фотографий, пожалуйста, подождите");
     }
     
     @Override
